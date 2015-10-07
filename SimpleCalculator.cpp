@@ -30,10 +30,10 @@ int calc(int a, int b, char c) {
 }
 
 int calc(std::istream& in) {
-	std::string input = "";
-	int number1 = 0;
-	int number2 = 0;
-	char myChar = { 0 };
+	std::string input {""};
+	int number1 {};
+	int number2 {};
+	char myChar {};
 	in >> number1;
 
 	in >> myChar;
